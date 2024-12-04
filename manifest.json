@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Notifications Unread Count",
+    "version": "1.0.0", 
+    "description": "Browser extension that adds the unread count to the title of GitHub notification page",
+    "author": "cgetc502@gmail.com",
+    "content_scripts": [
+      {
+        "matches": [
+            "https://github.com/notifications"
+        ],
+        "js": ["content-script.js"],
+        "run_at": "document_end"
+      }
+    ]
+}

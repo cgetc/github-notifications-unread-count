@@ -1,0 +1,24 @@
+{
+  "name": "GitHub Notifications Unread Count",
+  "version": "1.0.0",
+  "description": "Browser extension that adds the unread count to the title of GitHub notification page",
+  "main": "content-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgetc/github-notifications-unread-count.git"
+  },
+  "keywords": [
+    "github",
+    "extentions",
+    "notifications",
+    "unread"
+  ],
+  "author": "cgetc",
+  "bugs": {
+    "url": "https://github.com/cgetc/github-notifications-unread-count/issues"
+  },
+  "homepage": "https://github.com/cgetc/github-notifications-unread-count#readme"
+}
