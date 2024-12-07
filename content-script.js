@@ -7,7 +7,7 @@ function main() {
     const unreadCount = document.querySelectorAll('.notification-unread').length
     if (unreadCount) {
         const text = unreadCount >= 25 ? '25+' : new String(unreadCount)
-        document.title = `(${text})${document.title}`
+        document.title = `(${text}) ${document.title}`
     }
 
     setTimeout(reload, 60000)
