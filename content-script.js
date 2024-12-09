@@ -10,7 +10,7 @@ function main() {
         document.title = `(${text}) ${document.title}`
     }
 
-    setTimeout(reload, 60000)
+    setInterval(reload, 60000)
 }
 
 function reload() {
